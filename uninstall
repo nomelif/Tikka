@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# Uninstall the executable
+
+rm /usr/bin/tikka
+
+# Uninstall the rest of the files
+
+rm /usr/share/tikka -R
