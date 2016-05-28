@@ -1,0 +1,9 @@
+#! /bin/bash
+
+# Build with tikka, only call GCC if tikka didn't die.
+
+python3 /usr/share/tikka $@ > /tmp/tikka_tmp.c && gcc -w /tmp/tikka_tmp.c -lm
+
+# Cleanup anyway
+
+rm /tmp/tikka_tmp.c
