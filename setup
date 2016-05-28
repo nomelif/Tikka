@@ -1,10 +1,10 @@
-#! /bin/bash
+#!/bin/bash
 
 # Install the executable
 
-cp tikkaPackage/tikka /usr/bin/tikka
+cp tikkaPackage/tikka /usr/local/bin/tikka
 
 # Install the rest of the files
 
-mkdir -p /usr/share/tikka
-cp tikkaPackage/* /usr/share/tikka
+mkdir -p /usr/local/share/tikka
+cp tikkaPackage/* /usr/local/share/tikka

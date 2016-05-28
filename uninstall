@@ -2,8 +2,8 @@
 
 # Uninstall the executable
 
-rm /usr/bin/tikka
+rm /usr/local/bin/tikka
 
 # Uninstall the rest of the files
 
-rm /usr/share/tikka -R
+rm -rf /usr/local/share/tikka
